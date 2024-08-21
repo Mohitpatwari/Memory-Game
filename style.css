@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(135deg, #a85fcb, #f15a85);
+    background-size: cover;
+}
+#grid{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-right: 200px;
+}
+.hidden{
+    background-image: url('img/blank.png');
+}
